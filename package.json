@@ -1,0 +1,15 @@
+{
+  "name": "scriptflip",
+  "version": "1.1.0",
+  "description": "Viral video script reverse-engineer — dual-stream AI engine",
+  "private": true,
+  "scripts": {
+    "start":   "node start.js",
+    "setup":   "cd backend && npm install",
+    "dev":     "cd backend && node server.js",
+    "check":   "node start.js --check-only"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
